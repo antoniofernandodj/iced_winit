@@ -24,4 +24,4 @@ alvo o crate é idêntico ao publicado (diff completo em `ANDROID.patch`):
    Android; lá o teclado usa `logical_key`/`text` direto.
 
 Ao subir o `iced`, refazer a partir do `iced_winit` novo e reaplicar o patch
-(`patch -p1 < ANDROID.patch` num checkout da versão original).
+(`patch -p2 < ANDROID.patch` dentro de uma cópia da versão original).
